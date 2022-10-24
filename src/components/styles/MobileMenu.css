@@ -16,7 +16,6 @@
 }
 .mobileMenu.active {
   transform: translateX(0);
-  position: sticky;
 }
 a {
   font-family: "Ubuntu";
