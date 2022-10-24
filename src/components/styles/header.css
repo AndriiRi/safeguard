@@ -1,0 +1,55 @@
+header {
+  margin: 0 auto;
+  max-width: 1220px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+}
+
+button {
+  margin: 60px 25px;
+  border-style: none;
+  background-color: rgba(178, 34, 34, 0);
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.logoPlace {
+  margin: 60px 30px;
+}
+
+.mobileButton {
+  position: right;
+  min-height: "60px";
+  min-width: "60px";
+  display: "none";
+  right: 10px;
+  top: 10px;
+}
+
+@media (max-width: 1200px) {
+  header {
+    margin: 0 auto;
+    max-width: 1220px;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+  }
+
+  .infoPlace {
+    right: 10px;
+  }
+
+  button {
+    margin: 60px 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    display: none;
+  }
+}

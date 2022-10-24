@@ -1,0 +1,40 @@
+.mobileHeader {
+  height: 60px;
+  padding-top: 30px;
+}
+
+.mobileMenu {
+  width: 100vw;
+  height: 100vh;
+  background: #ffbc00;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  transform: translateX(-100%);
+  transition: 0.5s;
+}
+.mobileMenu.active {
+  transform: translateX(0);
+}
+a {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+  margin-top: 30px;
+  padding-right: 100px;
+}
+
+@media (min-width: 900px) {
+  .mobileHeader {
+    display: none;
+  }
+}

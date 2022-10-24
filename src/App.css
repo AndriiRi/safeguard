@@ -1,0 +1,55 @@
+.App {
+  background: #ffbc00;
+
+  min-width: 1vw;
+  margin: 0px;
+  overflow-y: hidden;
+}
+.burger {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: 30px;
+  padding: 0px;
+  right: 10%;
+  cursor: pointer;
+  align-items: center;
+}
+.burger:hover {
+  transform: scale(1.4);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.burger::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20px;
+  background-color: #000000;
+  height: 5px;
+  border-radius: 4px;
+}
+
+.burger::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 20px;
+  right: 0px;
+  background-color: #000000;
+  height: 5px;
+  border-radius: 4px;
+}
+.burger span {
+  position: absolute;
+  top: 13px;
+  width: 30px;
+  background-color: #000000;
+  height: 5px;
+  border-radius: 4px;
+}
+@media (min-width: 900px) {
+  .burger {
+    display: none;
+  }
+} ;

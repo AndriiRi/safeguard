@@ -1,0 +1,59 @@
+.formContainer {
+  background: #ffffff;
+  min-width: 1vw;
+  margin: 0 auto;
+  min-height: 500px;
+  margin-bottom: 50px;
+}
+.formFeeld {
+  max-width: 1220px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+form {
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);
+}
+
+input {
+  min-width: 50%;
+  border: none;
+  border-bottom: 1px solid #00000033;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+input:after {
+  border: none;
+  border-bottom: 1px solid #00000033;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+
+  color: #ffbc00;
+  padding-top: 50px;
+}
+
+.blackTextPart {
+  text-transform: uppercase;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+
+  color: rgba(17, 17, 17, 1);
+}
+p {
+  margin: 0px;
+}
